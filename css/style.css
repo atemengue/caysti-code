@@ -41,3 +41,23 @@ header {
   padding: 10px;
   border-radius: 50%;
 }
+
+/* CSS SECTION PROFIL */
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+}
+
+h1 span#prenom {
+  color: #14c38e;
+}
+
+h2#fonction {
+  text-align: center;
+}
+
+#biographie {
+  text-align: justify;
+}
