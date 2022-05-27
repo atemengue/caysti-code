@@ -61,3 +61,28 @@ h2#fonction {
 #biographie {
   text-align: justify;
 }
+
+section {
+  margin: 10px 10px;
+}
+
+section h3 {
+  background-color: #371b58;
+  padding: 5px 5px;
+  color: white;
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: 15px solid #14c38e;
+}
+
+section h4 {
+  text-decoration: underline;
+  font-style: italic;
+  margin: 0px;
+}
+
+section h5 {
+  margin: 0px;
+  font-size: 0.8em;
+}
