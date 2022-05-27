@@ -10,6 +10,28 @@ header {
   align-items: center;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
 /* css photo de profil */
 #photo_profil {
   width: 150px;
@@ -66,7 +88,8 @@ section {
   margin: 10px 10px;
 }
 
-section h3 {
+section h3,
+#competences h4 {
   background-color: #371b58;
   padding: 5px 5px;
   color: white;
@@ -85,4 +108,59 @@ section h4 {
 section h5 {
   margin: 0px;
   font-size: 0.8em;
+}
+
+section p {
+  text-align: justify;
+}
+
+#competences {
+  display: flex;
+  justify-content: space-around;
+}
+
+#competences h4 {
+  width: 100%;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 1.2em;
+  background-color: #371b58;
+  padding: 10px;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul li i {
+  background-color: #14c38e;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+  #photo_profil {
+    width: 100px;
+    height: 100px;
+  }
+  body {
+    background-color: lightblue;
+  }
+
+  .icon-header {
+  }
+
+  #competences {
+    display: block;
+  }
+
+  section h3 {
+    width: 100%;
+  }
 }
